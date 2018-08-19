@@ -11,6 +11,7 @@ gem 'sqlite3', group: [:development, :test]
 
 # postgres for production for database
 gem 'pg', group: :production
+gem "figaro"
 
 #12 facto for heroku
 gem 'rails_12factor', group: :production

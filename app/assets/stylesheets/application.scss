@@ -40,6 +40,7 @@ ul.no-indent {
 
 .font-weight-heavy {
     font-weight: 800;
+    
 }
 
 .font-weight-light {
@@ -49,14 +50,14 @@ ul.no-indent {
 /* SHARED PAGE STYLES */
 
 body {
-    background-color:#80c2eb;   
+    background-color: black;   
     background-size: 25%;
     font-family: 'Open Sans', sans-serif;
 }
 
 #content {
     margin: 40px auto 20px auto;
-    background: white;
+    background: black;
     padding: 0px;
     border-radius: 15px;
     overflow: hidden;
@@ -70,7 +71,7 @@ body {
 
 #site-footer {
     text-align: center;
-    color: white;
+    color: rgb(188, 247, 193);
     margin-bottom: 20px;
 }
 
@@ -118,16 +119,18 @@ body {
 
 #content-details {
     padding: 15px;
+    color: rgb(219, 248, 204);
 }
 
 #details-article {
-    border-right: 1px solid #ccc;
+    border-right: 1px solid rgb(159, 247, 159);
     padding: 0px 40px;
 }
 
 #article-title {
     margin-top: 0px;
     font-weight: 800;
+    color: rgb(20, 232, 48);
 }
 
 #details-infobox {
